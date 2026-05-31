@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal de la Asociación de Cazadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header-hxh">
+        <h1 style="text-align: center;">SISTEMA DE VERIFICACIÓN DE LICENCIAS</h1>
+        <p id="instruction-text" style="text-align: center;">Inserte el número de examen o código especial de la criatura/cazador</p>
+    </header>
+
+    <div id="id-guide">
+        <p><strong>Guía de IDs:</strong> Gon (405) | Killua (99) | Kurapika (404) | Leorio (403) | Netero (100) | Meruem (999) | Ging (12) | Beyond (1)</p>
+    </div>
+
+    <div id="search-container">
+        <input type="number" id="search-box" class="search-sec" placeholder="Ej: 405">
+        <button id="btnBuscar" class="search-sec">Escanear ID</button>
+        <button id="btnAleatorio" class="search-sec">Frecuencia Aleatoria</button>
+    </div>
+    <br>
+
+    <table id="chr-table">
+        <tr>
+            <td colspan="2" id="table-img-cell">
+                <img id="picture-style" src="images/01 Gon.webp" alt="Registro Visual">
+            </td>
+        </tr>
+        <tr class="row-style">
+            <td class="cell-label">Nombre</td>
+            <td class="cell-value" id="api-name">---</td>
+        </tr>
+        <tr class="row-style">
+            <td class="cell-label">Edad</td>
+            <td class="cell-value" id="api-age">---</td>
+        </tr>
+        <tr class="row-style">
+            <td class="cell-label">Tipo de Nen</td>
+            <td class="cell-value" id="api-nen">---</td>
+        </tr>
+        <tr class="row-style">
+            <td class="cell-label">Ocupación / Estado</td>
+            <td class="cell-value" id="api-occupation">---</td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

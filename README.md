@@ -32,4 +32,4 @@ Para operar el sistema, ingresa los siguientes códigos en la terminal:
 ## 💻 Instalación y Uso
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone [https://github.com/christianlorcam/HunterXHunter_API.git](https://github.com/christianlorcam/HunterXHunter_API.git)
+   git clone https://github.com/christianlorcam/HunterXHunter_API.git

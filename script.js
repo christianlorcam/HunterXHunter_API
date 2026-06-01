@@ -43,7 +43,7 @@ const baseDatosHxH = [
     {
         id: 999, 
         name: "Meruem (El Rey)",
-        age: "40 días de vida",
+        age: "40 días de vida (Fallecido)",
         nen: "Especialista (Síntesis de Aura)",
         occupation: "Rey Supremo de las Hormigas Quimera",
         image: "images/06 Meruem.webp"

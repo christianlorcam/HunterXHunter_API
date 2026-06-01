@@ -112,6 +112,14 @@ botonBuscar.addEventListener('click', function() {
 
 botonAleatorio.addEventListener('click', ejecutarAleatorio);
 
+inputBusqueda.addEventListener('keypress', function(event) {
+    // Verificamos si la tecla presionada es "Enter"
+    if (event.key === 'Enter') {
+        event.preventDefault(); // Evita comportamientos extraños del navegador
+        botonBuscar.click();    // Simula un clic en el botón de "Escanear ID"
+    }
+});
+
 function ejecutarAleatorio() {
     const indiceAzar = Math.floor(Math.random() * baseDatosHxH.length);
     const personajeAzar = baseDatosHxH[indiceAzar];
